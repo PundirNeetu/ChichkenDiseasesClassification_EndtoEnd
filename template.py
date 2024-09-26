@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)]: %(message)s:')
 
-project_name = "cnn_classifier"
+project_name = "cnnclassifier"
 
 list_of_files =[
     ".github/workflows/.gitkeep",
@@ -22,8 +22,8 @@ list_of_files =[
     "requirements.txt",
     "setup.py",
      "research/trials.ipynb",
-    "templates/index.html"
-
+    "templates/index.html",
+    "main.py"
 ]
 
 # window uses backward slash so we do following to handle it (above / forward slash used in Linux)
