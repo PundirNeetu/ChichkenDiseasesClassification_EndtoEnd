@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "ChichkenDiseasesClassification_EndtoEnd"
 AUTHOR_USER_NAME = "PundirNeetu"
-SRC_REPO = "cnnClassifier"
+SRC_REPO = "cnnclassifier"
 AUTHOR_EMAIL = "neetu.pundir@outlook.com"
 
 
