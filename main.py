@@ -3,11 +3,11 @@ from cnnclassifier import logger
 # it is installed as local package
 
 #logger.info("welcome to log")
-from cnnClassifier import logger
-from cnnClassifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
-from cnnClassifier.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
-from cnnClassifier.pipeline.stage_03_training import ModelTrainingPipeline
-from cnnClassifier.pipeline.stage_04_evaluation import EvaluationPipeline
+from cnnclassifier import logger
+from cnnclassifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
+from cnnclassifier.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
+#from cnnclassifier.pipeline.stage_03_training import ModelTrainingPipeline
+#from cnnclassifier.pipeline.stage_04_evaluation import EvaluationPipeline
 
 
 STAGE_NAME = "Data Ingestion stage"
@@ -36,7 +36,7 @@ except Exception as e:
 
 
 
-
+'''
 STAGE_NAME = "Training"
 try: 
    logger.info(f"*******************")
@@ -64,3 +64,4 @@ try:
 except Exception as e:
         logger.exception(e)
         raise e
+'''
